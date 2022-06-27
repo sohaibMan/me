@@ -7,9 +7,9 @@
 
 .cv{  
   background-color: gray;
-  padding: 20vh 0;
+  
   width: 100vw;
-  height: 100vh;
+  /* height: 100vh; */
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -17,11 +17,27 @@
 
 }
 .cv img{
-  margin-top: 10vh;;
+ width: 90%;
+  margin: 10vh 10vw;
   border-radius: 10px;
   box-shadow: 6px 15px 37px -4px rgba(0,0,0,0.64);
 -webkit-box-shadow: 6px 15px 37px -4px rgba(0,0,0,0.64);
 -moz-box-shadow: 6px 15px 37px -4px rgba(0,0,0,0.64);
+}
+.cv img :nth-child(2){
+  display: none;
+  
+}
+@media screen and (max-width: 600px){
+  .cv img{
+
+    display:none;
+  }
+  .cv img:nth-child(2){
+margin: 2vh 0 ;
+    display:block;
+  }
+  
 }
 
 .download{
