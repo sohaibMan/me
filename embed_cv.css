@@ -24,7 +24,7 @@
 -webkit-box-shadow: 6px 15px 37px -4px rgba(0,0,0,0.64);
 -moz-box-shadow: 6px 15px 37px -4px rgba(0,0,0,0.64);
 }
-.cv img :nth-child(2){
+.img--2{
   display: none;
   
 }
