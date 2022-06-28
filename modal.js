@@ -37,6 +37,6 @@ closeModal();
 })
 
 
-window.setTimeout(openModal, wstosec(.05));///nos d9i9a o taban dak pop f site dyali 
+window.setTimeout(openModal, wstosec(.5));///nos d9i9a o taban dak pop f site dyali 
 
     
