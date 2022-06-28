@@ -2,9 +2,22 @@
     margin: 0;
     padding: 0;
 }
+body{
+  font-family: 'Anek Latin', sans-serif;
+ font-size: 1rem;
+ line-height: 1.5;
 
+}
 
-
+ html{
+    font-size: 100%;
+ }
+ @media screen and (max-width: 63em) {
+    html{
+        font-size: 90%;
+    }
+ 
+ }
 .cv{  
   background-color: gray;
 
@@ -36,6 +49,7 @@ margin: 2vh 0 ;
   
 }
 
+
 .download{
     display: flex;
     flex-direction: column;
@@ -50,7 +64,7 @@ margin: 2vh 0 ;
     font-size: 1.1rem;
 }
 
-.button {
+.button_download {
   --width: 200px;
   --height: 50px;
   --tooltip-height: 35px;
@@ -64,11 +78,10 @@ margin: 2vh 0 ;
   position: relative;
   text-align: center;
   border-radius: 0.45em;
-  font-family: "Arial";
   transition: background 0.3s;
  }
  
- .button::before {
+ .button_download::before {
   position: absolute;
   content: attr(data-tooltip);
   width: var(--tooltip-width);
@@ -82,7 +95,7 @@ margin: 2vh 0 ;
   left: calc(50% - var(--tooltip-width) / 2);
  }
  
- .button::after {
+ .button_download::after {
   position: absolute;
   content: '';
   width: 0;
@@ -93,7 +106,7 @@ margin: 2vh 0 ;
   bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) - 10px);
  }
  
- .button::after,.button::before {
+ .button_download::after,.button_download::before {
   opacity: 0;
   visibility: hidden;
   transition: all 0.5s;
@@ -106,7 +119,7 @@ margin: 2vh 0 ;
   color: white ;
  }
  
- .button-wrapper,.text,.icon {
+ .button_download_wrapper,.text,.icon {
   overflow: hidden;
   position: absolute;
   width: 100%;
@@ -133,28 +146,27 @@ margin: 2vh 0 ;
   justify-content: center;
  }
  
- .button:hover {
+ .button_download:hover {
   background: #6c18ff;
  }
  
- .button:hover .text {
+ .button_download:hover .text {
   top: -100%;
  }
  
- .button:hover .icon {
+ .button_download:hover .icon {
   top: 0;
  }
  
- .button:hover:before,.button:hover:after {
+ .button_download:hover:before,.button_download:hover:after {
   opacity: 1;
   visibility: visible;
  }
  
- .button:hover:after {
+ .button_download:hover:after {
   bottom: calc(var(--height) + var(--gap-between-tooltip-to-button) - 20px);
  }
  
- .button:hover:before {
+ .button_download:hover:before {
   bottom: calc(var(--height) + var(--gap-between-tooltip-to-button));
  }
- 
