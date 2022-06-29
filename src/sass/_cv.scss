@@ -7,6 +7,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+ 
+  &_title{
+margin-top: 2rem;
+color: $main-color;
+animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
 
 }
 .cv img{
@@ -27,7 +33,7 @@
     justify-content: center;
     align-items: center;
     height: 10vh;
-  margin: 10vh  0;
+   margin-bottom: 5vh;
 }
 .download--anchor{
     text-decoration: none;
@@ -38,7 +44,6 @@
 .button_download {
 
  @extend .download_button_varibales;
-
   width: var(--width);
   height: var(--height);
   background: var(--button-color);

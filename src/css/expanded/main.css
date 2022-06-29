@@ -25,6 +25,11 @@ html {
   font-size: 100%;
 }
 
+.box {
+  width: 100vw;
+  height: 25vh;
+}
+
 .fix_head_pop {
   display: none;
 }
@@ -88,6 +93,7 @@ p {
 .mymodal p {
   font-size: 1.5rem;
   font-weight: 300;
+  color: #333;
 }
 
 .mymodal h1 {
@@ -332,12 +338,30 @@ a {
   outline: none;
 }
 
+@keyframes focus-in-contract-bck {
+  0% {
+    letter-spacing: 1em;
+    transform: translateZ(300px);
+    filter: blur(12px);
+    opacity: 0;
+  }
+  100% {
+    transform: translateZ(12px);
+    filter: blur(0);
+    opacity: 1;
+  }
+}
 .cv {
   background-color: gray;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+}
+.cv_title {
+  margin-top: 2rem;
+  color: #fdf2e9;
+  animation: focus-in-contract-bck 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
 .cv img {
@@ -356,7 +380,7 @@ a {
   justify-content: center;
   align-items: center;
   height: 10vh;
-  margin: 10vh 0;
+  margin-bottom: 5vh;
 }
 
 .download--anchor {
@@ -471,8 +495,9 @@ a {
   }
 
   .cv img:nth-child(2) {
-    margin: 2vh 0;
+    margin: 5vh 0;
     display: block;
+    width: 95%;
   }
 }
 @media screen and (max-width: 32em) {

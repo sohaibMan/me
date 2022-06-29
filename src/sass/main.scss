@@ -23,7 +23,7 @@
 //         "12":#66d9e880//card color 3 lighter
 
 //         // use map-get($colors,nbofcolor)
-//         //for example  color: map-get($colors,"5")
+//         //for exam/ple  color: map-get($colors,"5")
 
 
 // );
@@ -38,7 +38,9 @@
 //@import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 @import "init";
+@import "tmp";
 @import "my-modal";
+@import "animations";
 @import "cv";
 @import "media_qeury";
 

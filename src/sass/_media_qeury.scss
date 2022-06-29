@@ -1,12 +1,16 @@
 
- @media screen and (max-width: 28em){
+  @media screen and (max-width: 28em){
     .cv img{
-  
+
       display:none;
     }
+    
     .cv img:nth-child(2){
-  margin: 2vh 0 ;
+
+  margin: 5vh 0 ;
       display:block;
+      width: 95%;
+     
     }
     
   }
@@ -57,6 +61,7 @@
     
         font-size: 2rem;
       }
+     
      
 
  }
