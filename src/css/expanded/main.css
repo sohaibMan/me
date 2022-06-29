@@ -18,7 +18,7 @@
 body {
   font-family: "Anek Latin", sans-serif;
   font-size: 1rem;
-  line-height: 1.2;
+  line-height: 1.5;
 }
 
 html {
@@ -87,7 +87,7 @@ p {
 
 .mymodal p {
   font-size: 1.5rem;
-  font-weight: 700;
+  font-weight: 300;
 }
 
 .mymodal h1 {
