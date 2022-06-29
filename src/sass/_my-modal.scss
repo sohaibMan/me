@@ -110,7 +110,7 @@ p {
  .mytooltip {
   position: relative;
   display: flex;  
-   background: #cfef00;
+   background: $popup-continue-button-background;
  }
  
  .mytooltip .mytooltiptext {
@@ -163,7 +163,7 @@ p {
   transition: all .2s;
   padding: 10px 20px;
   border-radius: 100px;
-  background: #cfef00;
+  background: $popup-continue-button-background;
   border: 1px solid transparent;
   display: flex;
   align-items: center;
@@ -301,7 +301,7 @@ display: flex;
 
   
   font-size: 15px;
-  border: 1px solid #5e4dcd;
+  border: 1px solid $input-color;
   border-radius: 6px 0 0 6px;
   background-color: transparent;
 }
@@ -311,7 +311,7 @@ display: flex;
   padding: .5em 1em;
   border: none;
   border-radius: 0 6px 6px 0;
-  background-color: #5e4dcd;
+  background-color: $input-color;
  color: #fff;
   font-size: 15px;
   cursor: pointer;
