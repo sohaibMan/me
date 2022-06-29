@@ -1,5 +1,5 @@
 .download_button_varibales, .button_download {
-  --width: 200px;
+  --width: 250px;
   --height: 50px;
   --tooltip-height: 35px;
   --tooltip-width: 90px;
@@ -18,7 +18,7 @@
 body {
   font-family: "Anek Latin", sans-serif;
   font-size: 1rem;
-  line-height: 1.5;
+  line-height: 1.4;
 }
 
 html {
@@ -26,7 +26,6 @@ html {
 }
 
 .box {
-  width: 100vw;
   height: 25vh;
 }
 
@@ -351,6 +350,34 @@ a {
     opacity: 1;
   }
 }
+#google_translate_element {
+  margin: 2rem;
+  position: absolute;
+  right: 0;
+}
+
+.goog-logo-link {
+  display: none !important;
+}
+
+.goog-te-gadget {
+  color: transparent !important;
+}
+
+.goog-te-combo {
+  padding: 5px 10px;
+  font-family: inherit;
+}
+.goog-te-combo option {
+  display: none !important;
+}
+.goog-te-combo option[value=ar] {
+  display: block !important;
+}
+.goog-te-combo option[value=fr] {
+  display: block !important;
+}
+
 .cv {
   background-color: gray;
   display: flex;
