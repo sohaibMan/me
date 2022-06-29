@@ -1,0 +1,52 @@
+//!custom varibales (those variables will overwrite the bootstrap varibales coz in the bootstrap we have !default  --> take them if they were't declared
+
+
+// $primary:purple;//overwrite the bootstrap varibale(that should be befotre improt bootstrap)
+// @import "../node_modules/bootstrap/scss/_functions.scss";
+// @import "../node_modules/bootstrap/scss/_variables.scss";
+// the varibale  sass file need functions to work 
+
+//  now we can accees to themese colors
+// $custome-colors:( 
+    //         "new": #28b485, //primary-color-dark
+//         "0":#55c57a, //primary-color
+//         "1": #7ed56f,  //primary-color-lighter
+//         "3": #777,  //grey
+//         "4": #fff,//white
+//         "5":#000,//black
+//         "6":#f7f7f7,//grey light
+//         "7":#f08c00,//card color 1
+//         "8":#f08c0080,//card color 1 lighter
+//         "9":#69db7c,//card color 2
+//         "10":#69db7c80,//card color 2 lighter
+//         "11":#66d9e8,//card color 3
+//         "12":#66d9e880//card color 3 lighter
+
+//         // use map-get($colors,nbofcolor)
+//         //for example  color: map-get($colors,"5")
+
+
+// );
+// $theme-colors:map-merge($theme-colors,$custome-colors);
+
+
+
+@import "../sass/variables";// to custome bootstrap u should declrate before it
+
+
+//? import bootstrap
+//@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "init";
+@import "my-modal";
+@import "cv";
+@import "media_qeury";
+
+
+
+
+
+
+.disclaimer{
+    display: none !important;
+}

@@ -1,0 +1,63 @@
+
+ @media screen and (max-width: 28em){
+    .cv img{
+  
+      display:none;
+    }
+    .cv img:nth-child(2){
+  margin: 2vh 0 ;
+      display:block;
+    }
+    
+  }
+  @media screen and (max-width: 32em) {
+    .mymodal-buttons{
+      gap: .5rem;
+      flex-direction: column;
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 1rem;}
+    .fix_not_imporant_text{
+    display: none;
+    }
+    .fix_head_pop{
+      display:block;
+      height: 0;
+    }
+    .mymodal {
+      padding: 2rem 1rem;
+    }
+    .mymodal-container{
+      width: 90vw;
+    }
+    
+    }
+
+  @media screen and (max-width: 50em) {
+   
+    .mymodal p{
+    
+      font-size: 1.5rem;
+    }
+   
+  }
+
+  @media screen and (max-width: 63em) {
+    html{
+        font-size: 90%;
+    }
+   .mymodal-container{
+      height: 80vh;
+      width: 60vw;
+      line-height: 1.3;
+      
+    }
+    .mymodal h1{
+    
+        font-size: 2rem;
+      }
+     
+
+ }
+ 
