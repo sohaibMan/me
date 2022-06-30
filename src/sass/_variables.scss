@@ -11,6 +11,17 @@ $main-color:#fdf2e9;
     --text-color:#000000;
 //they are css varibales
 }
+//language toogler variables
+.switch {
+    --button-width: 3.5em;
+    --button-height: 2em;
+    --toggle-diameter: 1.5em;
+    --button-toggle-offset: calc((var(--button-height) - var(--toggle-diameter)) / 2);
+    --toggle-shadow-offset: 10px;
+    --toggle-wider: 3em;
+    --color-grey: #cccccc;
+    --color-green: #4296f4;
+   }
 
 $popup-continue-button-background:#cfef00;
 $input-color:#5e4dcd;

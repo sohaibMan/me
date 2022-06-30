@@ -31,13 +31,12 @@ document.addEventListener('keydown', function (e) {
 });
 const wstosec = (min) => {return min*60 * 1000};//convert seconds to milliseconds
 
-const form = document.querySelector(".input-group");
+const form = document.querySelector(".myinput-group");
 form.addEventListener("submit", function () {
 closeModal();
 })
 
 
 window.setTimeout(openModal, wstosec(.5));///nos d9i9a o taban dak pop f site dyali 
-// window.setTimeout(openModal,1);///nos d9i9a o taban dak pop f site dyali 
+//window.setTimeout(openModal,1);///nos d9i9a o taban dak pop f site dyali 
 
-   

@@ -1,1 +1,3 @@
-embed my cv pdf
+add cv b fr
+add button toggler f7al dyal dak night mood (bootstrap projects)
+add cards of my projects (natours)

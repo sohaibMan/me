@@ -1,11 +1,11 @@
 
   @media screen and (max-width: 28em){
-    .cv img{
+    .cv .img--1{
 
       display:none;
     }
     
-    .cv img:nth-child(2){
+    .cv .img--2{
 
   margin: 5vh 0 ;
       display:block;
@@ -15,6 +15,7 @@
     
   }
   @media screen and (max-width: 32em) {
+
     .mymodal-buttons{
       gap: .5rem;
       flex-direction: column;
@@ -62,7 +63,15 @@
         font-size: 2rem;
       }
      
-     
+  
 
- }
- 
+  .myinput-group{
+ flex-direction: column;
+ width: 100%;
+}
+.myinput-group input ,.input-group-block  {
+  
+  width: 100%;
+  padding: 0;
+  }
+  }
