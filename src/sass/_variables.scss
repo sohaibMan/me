@@ -13,12 +13,12 @@ $main-color:#fdf2e9;
 }
 //language toogler variables
 .switch {
-    --button-width: 3.5em;
-    --button-height: 2em;
-    --toggle-diameter: 1.5em;
+    --button-width: 3.5rem;
+    --button-height: 2rem;
+    --toggle-diameter: 1.5rem;
     --button-toggle-offset: calc((var(--button-height) - var(--toggle-diameter)) / 2);
     --toggle-shadow-offset: 10px;
-    --toggle-wider: 3em;
+    --toggle-wider: 3rem;
     --color-grey: #cccccc;
     --color-green: #4296f4;
    }

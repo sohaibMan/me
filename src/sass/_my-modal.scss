@@ -349,15 +349,15 @@ display: flex;
   box-shadow: var(--toggle-shadow-offset) 0 calc(var(--toggle-shadow-offset) * 4) rgba(0, 0, 0, 0.1);
   transition: 0.3s all ease-in-out;
  }
- .cv{
-  position: relative;
- }
+
  .switch{
-  height:2em;
+
+  height:2rem;
    gap: .5rem;
-   position: absolute;
-   top: 14vh;
-   right:9vw;
+//    position: absolute;
+// top: 5vh;
+// right :5vw;
+
  }
 
  .switch input[type="checkbox"]:checked + .slider {

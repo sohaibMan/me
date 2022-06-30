@@ -12,12 +12,12 @@
 }
 
 .switch {
-  --button-width: 3.5em;
-  --button-height: 2em;
-  --toggle-diameter: 1.5em;
+  --button-width: 3.5rem;
+  --button-height: 2rem;
+  --toggle-diameter: 1.5rem;
   --button-toggle-offset: calc((var(--button-height) - var(--toggle-diameter)) / 2);
   --toggle-shadow-offset: 10px;
-  --toggle-wider: 3em;
+  --toggle-wider: 3rem;
   --color-grey: #cccccc;
   --color-green: #4296f4;
 }
@@ -11485,16 +11485,9 @@ a {
   transition: 0.3s all ease-in-out;
 }
 
-.cv {
-  position: relative;
-}
-
 .switch {
-  height: 2em;
+  height: 2rem;
   gap: 0.5rem;
-  position: absolute;
-  top: 14vh;
-  right: 9vw;
 }
 
 .switch input[type=checkbox]:checked + .slider {
@@ -11567,7 +11560,7 @@ a {
   align-items: center;
 }
 .cv_title {
-  margin-top: 2rem;
+  margin: 2rem;
   color: #fdf2e9;
   animation: focus-in-contract-bck 1s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
@@ -11697,7 +11690,7 @@ a {
   bottom: calc(var(--height) + var(--gap-between-tooltip-to-button));
 }
 
-@media screen and (max-width: 28em) {
+@media screen and (max-width: 32em) {
   .cv .img--1 {
     display: none;
   }
@@ -11707,8 +11700,7 @@ a {
     display: block;
     width: 95%;
   }
-}
-@media screen and (max-width: 32em) {
+
   .mymodal-buttons {
     gap: 0.5rem;
     flex-direction: column;
@@ -11738,6 +11730,10 @@ a {
 @media screen and (max-width: 50em) {
   .mymodal p {
     font-size: 1.5rem;
+  }
+
+  html {
+    font-size: 85%;
   }
 }
 @media screen and (max-width: 63em) {

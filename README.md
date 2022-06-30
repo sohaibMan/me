@@ -7,3 +7,4 @@ The pop up and the cv page is made  using the following technologies:
 
 It my designe 
 
+this a laptop first website

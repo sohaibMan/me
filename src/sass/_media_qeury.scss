@@ -1,5 +1,5 @@
 
-  @media screen and (max-width: 28em){
+  @media screen and (max-width: 32em){
     .cv .img--1{
 
       display:none;
@@ -12,10 +12,7 @@
       width: 95%;
      
     }
-    
-  }
-  @media screen and (max-width: 32em) {
-
+  
     .mymodal-buttons{
       gap: .5rem;
       flex-direction: column;
@@ -46,6 +43,9 @@
       font-size: 1.5rem;
     }
    
+    html{
+      font-size: 85%;
+  }
   }
 
   @media screen and (max-width: 63em) {

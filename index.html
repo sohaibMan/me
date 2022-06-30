@@ -32,16 +32,23 @@
 </div> 
 
 <div class="cv">
-  <label class="switch d-flex align-items-center g-1">
-    <span class="slider-L text-white text-uppercase">Francais</span>
-    <input type="checkbox" checked>
-    <span class="slider"></span>
-    <span class=" slider-L text-white  text-uppercase">Anglais</span>
-  </label>
-  <h1 class="cv_title">This my cv</h1>
-    <img src="src/img/cv--eng.jpg" class="img--1" alt="sohaib manah cv">
-<img src="src/img/cv-sm--en.jpg" class="img--2" alt="sohaib manah cv">
+<div class="cv-header">
+    <h1 class="cv_title">This my cv</h1>
+    <label class="switch d-flex align-items-center ">
+      <span class="slider-L text-white text-uppercase">Anglais</span>
+      <input type="checkbox"  class="lang" >
+      <span class="slider"></span>
+      <span class=" slider-L text-white  text-uppercase">français</span>
+    </label>
+</div>
+
+
+ 
+
+<img src="src/img/cv--eng.jpg" class="img--1 img" alt="sohaib manah cv">
+<img src="src/img/cv-sm--en.jpg" class="img--2 img" alt="sohaib manah cv">
     
+ 
   
 <a class="download--anchor"  download href="src/pdf/SOHAIB_MANAH_cv--eng.pdf" >
     <div class="download">
@@ -66,7 +73,7 @@
       <button class="mytooltip">
         <script type="text/javascript">var submitted=false;</script>
         <iframe name="hidden_iframe" id="hidden_iframe" style="display:none"></iframe>
-       <img src="src/img/exit.svg" height="18" width="18" alt="exit button">
+       <img src="src/img/exit.svg" height="17" width="17" alt="exit button">
         <span class="mytooltiptext">Close</span>
       </button>
      </div>
@@ -119,6 +126,7 @@
     </div>
     <div class="overlay hidden"></div>
     <script src="src/js/modal.js"></script>
+    <script src="src/js/lang_togler.js"></script>
 
 </body>
 </html>
