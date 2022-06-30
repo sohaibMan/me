@@ -1,6 +1,6 @@
 @charset "UTF-8";
 .download_button_varibales, .button_download {
-  --width: 250px;
+  --width: 300px;
   --height: 50px;
   --tooltip-height: 35px;
   --tooltip-width: 90px;
@@ -11154,10 +11154,6 @@ body {
 
 html {
   font-size: 100%;
-}
-
-.box {
-  height: 25vh;
 }
 
 .fix_head_pop {
