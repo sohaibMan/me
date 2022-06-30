@@ -1,0 +1,17 @@
+$main-color:#fdf2e9;
+.download_button_varibales{
+    --width: 250px;
+    --height: 50px;
+    --tooltip-height: 35px;
+    --tooltip-width: 90px;
+    --gap-between-tooltip-to-button: calc(var(--tooltip-height)/2 + 3px);
+    --button-color: #fdf2e9;
+    --tooltip-color: #fff;
+    --background-hover: #1763ab80;
+    --text-color:#000000;
+//they are css varibales
+}
+
+$popup-continue-button-background:#cfef00;
+$input-color:#5e4dcd;
+//contineu and exit button

@@ -1,0 +1,33 @@
+#google_translate_element{
+    
+  margin:2rem;
+  position: absolute;
+  right: 0;
+}
+.goog-logo-link {
+    display:none !important;
+} 
+    
+.goog-te-gadget {
+    color: transparent !important;
+}
+
+// .goog-te-banner-frame.skiptranslate {
+// display: none !important;
+// } 
+
+
+.goog-te-combo{
+    padding: 5px 10px;
+    font-family: inherit;
+    & option{
+        display: none !important;
+    }
+    & option[value="ar"]{
+        display: block !important;
+    }
+    & option[value="fr"]{
+        display: block !important ;
+    }
+    
+}
