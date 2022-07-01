@@ -9,13 +9,13 @@
   align-items: center;
  
   &_title{
-margin: 2rem;
+margin: 2rem 0;
 color: $main-color;
 animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
   }
 
 }
-.cv img{
+.cv .img{
  width: 90%;
   margin: 10vh 10vw;
   border-radius: 10px;

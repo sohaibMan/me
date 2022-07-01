@@ -2,3 +2,8 @@ khsek tizd small images b photoshop bihom b 2
  tani tizid chi cards fihom l projects li khdamti 3lihom o rab3a gold fihom your card !
  favcione
  gallery
+adding header (omnifood)
+adding footer
+adding hero section (with a call to action sectiton)
+adding a gallery
+adding servercies

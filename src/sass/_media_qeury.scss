@@ -27,11 +27,14 @@
       display:block;
       height: 0;
     }
-    .mymodal {
-      padding: 2rem 1rem;
-    }
+    // .mymodal {
+    //   padding: 2rem 1rem;
+    // }
     .mymodal-container{
+      height: 80vh;
       width: 90vw;
+  
+  
     }
     
     }
@@ -54,7 +57,7 @@
     }
    .mymodal-container{
       height: 80vh;
-      width: 60vw;
+      width: 70vw;
       line-height: 1.3;
       
     }
